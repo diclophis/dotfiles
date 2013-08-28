@@ -1,0 +1,25 @@
+centerology-4.0
+  * travis build (take from Age-Of-Discovery)
+  * make research links
+  * footer on view mage
+  * padding on image top bottom, change margin / padding of primary
+
+glsl-qwqz-1.0
+  * shader selector, switcher mechanism
+  * figure out where memory allocation occurs in JS (Date)
+
+MemoryLeak
+  * TileMap sprite location logic
+  * Maze location based
+  * render sub-tiles into larger tile
+  * render to texture
+
+Age Of Discovery
+  * Upgrade to rails-4, re-integrate with centerology-4.0
+
+lyteride-1.0
+  * occulus-rift framework
+  * rectangle for bike
+  * drop rectangles for line behind
+  * constant forward velocity
+  * left or right
