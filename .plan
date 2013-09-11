@@ -1,4 +1,5 @@
 centerology-4.0
+  * fix secret token field
   * CSRF cross-check
   * travis build (take from Age-Of-Discovery)
   * reduce process count
