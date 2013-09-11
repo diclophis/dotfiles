@@ -1,15 +1,19 @@
 centerology-4.0
-  * padding on image top bottom, change margin / padding of primary
+  * CSRF cross-check
   * travis build (take from Age-Of-Discovery)
-  * make research links
-  * footer on view mage
+  * reduce process count
+  * error log rotation
+  * move install script
+  * exception tester
+  * root url
 
 glsl-qwqz-1.0
+  * interface with JS more
   * shader selector, switcher mechanism, based on argv
   * figure out where memory allocation occurs in JS (Date)
 
 MemoryLeak
-  * audit all files in git
+  * fix page css, height, use gwqz
   * TileMap sprite location logic
   * Maze location based
   * render sub-tiles into larger tile
