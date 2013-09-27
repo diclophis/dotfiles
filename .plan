@@ -1,8 +1,6 @@
 centerology-4.0
-  * fix secret token field
-  * CSRF cross-check
-  * travis build (take from Age-Of-Discovery)
   * reduce process count
+  * travis build (take from Age-Of-Discovery)
   * error log rotation
   * move install script
   * exception tester
@@ -16,6 +14,7 @@ glsl-qwqz-1.0
 MemoryLeak
   * fix page css, height, use gwqz
   * TileMap sprite location logic
+    * needs seperate octree for render
   * Maze location based
   * render sub-tiles into larger tile
   * render to texture
