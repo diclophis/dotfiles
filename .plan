@@ -7,12 +7,11 @@ centerology-4.0
   * root url
 
 glsl-qwqz-1.0
+  * spine-c runtime opengles 2.0 c renderer
   * interface with JS more
-  * shader selector, switcher mechanism, based on argv
   * figure out where memory allocation occurs in JS (Date)
 
 MemoryLeak
-  * fix page css, height, use gwqz
   * TileMap sprite location logic
     * needs seperate octree for render
   * Maze location based
