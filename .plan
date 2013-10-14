@@ -1,13 +1,8 @@
 centerology-4.0
-  * reduce process count
   * travis build (take from Age-Of-Discovery)
   * error log rotation
-  * move install script
-  * exception tester
-  * root url
 
 glsl-qwqz-1.0
-  * spine-c runtime opengles 2.0 c renderer
   * interface with JS more
   * figure out where memory allocation occurs in JS (Date)
 
