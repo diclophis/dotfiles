@@ -1,20 +1,39 @@
+happy-trails-5
+  * lesscss.js
+  * actual render image into tiles
+    * support non-square images
+  * gamelogic with scoring
+
 centerology-4.0
   * travis build (take from Age-Of-Discovery)
   * error log rotation
-
-glsl-qwqz-1.0
-  * interface with JS more
-  * figure out where memory allocation occurs in JS (Date)
-
-MemoryLeak
-  * TileMap sprite location logic
-    * needs seperate octree for render
-  * Maze location based
-  * render sub-tiles into larger tile
-  * render to texture
+  * make jruby/neo4r/ruby-2.0 work together...?
+    * maybe switch to ruby-2 with a neo4j server on torquebox?
+    * maybe just use jruby-1.9 on torquebox
+    * maybe just foreman
 
 Age Of Discovery
   * Upgrade to rails-4, re-integrate with centerology-4.0
+    * fix problems with neo4j on rails4 + jruby
+
+emscripten
+  * push back stuff
+
+glsl-qwqz-1.0
+  * point shader
+  * document how spine animations should work
+  * 2d player model for run+jump+fly
+  * fix shader vertex generation
+  * interface with JS more
+  * audio layer with libxmp / modplug...?
+
+MemoryLeak
+  * fix webaudio, firefox supports webaudio
+  * render sub-tiles into larger tile
+  * render to texture
+  * TileMap sprite location logic
+    * needs seperate octree for render
+  * Maze location based
 
 lyteride-1.0
   * occulus-rift framework
