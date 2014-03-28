@@ -1,6 +1,18 @@
-happy-trails-5
-  * gamelogic with scoring
-  * support non-square images
+get-user-media-input
+  * gif import
+  * better UI
+
+debug-tile-texturer
+  * make it so you can export sprite data to qwqz
+
+ekko
+  * make all the animations by extracting from source art
+  * make the dolphin move
+
+autocenter
+  * ROI extraction
+  * gif creation
+  * file saving
 
 glsl-qwqz-1.0
   * point shader
@@ -11,7 +23,15 @@ glsl-qwqz-1.0
   * audio layer with libxmp / modplug...?
   * android ios cleanup and performance
 
+happy-trails-5
+  * gamelogic with scoring
+  * support non-square images
+
+image-mine
+  * make a site by scraping OS imagery
+
 centerology-4.0
+  * open-source
   * travis build (take from Age-Of-Discovery)
   * error log rotation
   * make jruby/neo4r/ruby-2.0 work together...?
@@ -40,3 +60,9 @@ lyteride-1.0
   * drop rectangles for line behind
   * constant forward velocity
   * left or right
+
+PixelThings
+  * update xcode project
+
+risingcode-fss
+  * moving text?
