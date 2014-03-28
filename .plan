@@ -1,8 +1,15 @@
 happy-trails-5
-  * lesscss.js
-  * actual render image into tiles
-    * support non-square images
   * gamelogic with scoring
+  * support non-square images
+
+glsl-qwqz-1.0
+  * point shader
+  * document how spine animations should work
+  * 2d player model for run+jump+fly
+  * fix shader vertex generation
+  * interface with JS more
+  * audio layer with libxmp / modplug...?
+  * android ios cleanup and performance
 
 centerology-4.0
   * travis build (take from Age-Of-Discovery)
@@ -18,14 +25,6 @@ Age Of Discovery
 
 emscripten
   * push back stuff
-
-glsl-qwqz-1.0
-  * point shader
-  * document how spine animations should work
-  * 2d player model for run+jump+fly
-  * fix shader vertex generation
-  * interface with JS more
-  * audio layer with libxmp / modplug...?
 
 MemoryLeak
   * fix webaudio, firefox supports webaudio
