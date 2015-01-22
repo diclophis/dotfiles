@@ -76,3 +76,5 @@ let &titleold=getcwd()
 au BufRead,BufNewFile *.less set filetype=scss
 au BufNewFile,BufRead *.inventory,*.ini,*/.hgrc,*/.hg/hgrc setf ini
 au BufNewFile,BufRead *.fsh,*.vsh set syntax=glsl
+
+set viminfo='50,<1000,s100,h
