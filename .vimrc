@@ -72,3 +72,7 @@ if &term == "screen" || &term == "xterm"
 endif
 
 let &titleold=getcwd()
+
+au BufRead,BufNewFile *.less set filetype=scss
+au BufNewFile,BufRead *.inventory,*.ini,*/.hgrc,*/.hg/hgrc setf ini
+au BufNewFile,BufRead *.fsh,*.vsh set syntax=glsl
