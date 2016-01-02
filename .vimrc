@@ -4,10 +4,10 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " GLOBAL SETTINGS
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
- 
+
 " VIM, not VI
 set nocompatible
- 
+
 " General appearance and behaviour
 " filetype plugin indent on
 syntax on
@@ -22,14 +22,14 @@ set backspace=indent,eol,start
 set nowrap
 set linebreak
 set lazyredraw
- 
+
 set nomodeline
- 
+
 " MOUSE with VIM ! (YES)
 " set mouse=a
 " set ttymouse=xterm2
 set scrolloff=1
- 
+
 " Indentation options
 set autoindent
 set expandtab
@@ -76,7 +76,7 @@ let &titleold=getcwd()
 
 au BufRead,BufNewFile *.less set filetype=scss
 au BufNewFile,BufRead *.inventory,*.ini,*/.hgrc,*/.hg/hgrc setf ini
-au BufNewFile,BufRead *.fsh,*.vsh set syntax=glsl 
+au BufNewFile,BufRead *.fsh,*.vsh set syntax=glsl
 au BufRead,BufNewFile Detectivefile set filetype=ruby
 
 
