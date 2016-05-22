@@ -4,10 +4,10 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " GLOBAL SETTINGS
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+ 
 " VIM, not VI
 set nocompatible
-
+ 
 " General appearance and behaviour
 " filetype plugin indent on
 syntax on
@@ -22,13 +22,14 @@ set backspace=indent,eol,start
 set nowrap
 set linebreak
 set lazyredraw
-set nu
-
+ 
+set nomodeline
+ 
 " MOUSE with VIM ! (YES)
 " set mouse=a
 " set ttymouse=xterm2
 set scrolloff=1
-
+ 
 " Indentation options
 set autoindent
 set expandtab
@@ -37,13 +38,11 @@ set shiftwidth=2
 set tabstop=2
 set virtualedit=block
 set equalprg=
-
+ 
 " Search options
 " set incsearch
 set hlsearch
 set ignorecase
-
-set modelines=5
 
 " Fold options
 " set foldmethod=indent
@@ -61,20 +60,9 @@ autocmd BufNewFile,BufRead *.markdown,*.md,*.mdown,*.mkd,*.mkdn
       \ endif
 
 au BufRead,BufNewFile *.scss set filetype=scss
-
-let &titlestring = hostname() . "[vim(" . expand("%:t") . ")]"
-if &term == "screen"
-  set t_ts=^[k
-  set t_fs=^[\
-endif
-if &term == "screen" || &term == "xterm"
-  set title
-endif
-
-let &titleold=getcwd()
-
 au BufRead,BufNewFile *.less set filetype=scss
 au BufNewFile,BufRead *.inventory,*.ini,*/.hgrc,*/.hg/hgrc setf ini
-au BufNewFile,BufRead *.fsh,*.vsh set syntax=glsl
+au BufNewFile,BufRead *.fsh,*.vsh set syntax=glsl 
+au BufRead,BufNewFile Detectivefile set filetype=ruby
 
 set viminfo='50,<1000,s100,h
