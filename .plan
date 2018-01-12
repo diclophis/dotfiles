@@ -1,8 +1,12 @@
 risingcode.com
   * full stack rebuild
 
+detective-agency
+  * fix thread module
+  * implement remote terminal
+  * implement more DSL
+
 attalos
-  * development deployment
   * MVP product features
 
 copynews
@@ -14,11 +18,14 @@ tiddly.js
 
 bikeshed
   * nw.js installer
-  * phantom/casper bridge
+  * phantom/casper/selenium bridge
   * image compare paralell
 
-present
-  * progressive enhance react isomorphic framework
+gigamock
+  * functional api
+
+presenting.js
+  * progressivly enhanced react isomorphic presentation framework
 
 get-user-media-input
   * gif import
@@ -85,6 +92,7 @@ lyteride-1.0
 
 PixelThings
   * update xcode project
+  * integration with kicksaas
 
 risingcode-fss
   * moving text?
