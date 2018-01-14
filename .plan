@@ -1,5 +1,11 @@
+# TODO
+
+bardin.haus
+  * re-deploy all demos and documents
+
 risingcode.com
   * full stack rebuild
+  * deploy into kube
 
 detective-agency
   * fix thread module
@@ -7,14 +13,29 @@ detective-agency
   * implement more DSL
 
 attalos
+  * drop XMPP backend
+  * rebuild using ActionCable interface
+    * https://github.com/libuv/libuv
+    * https://github.com/cotag/spider-gazelle
+    * https://www.npmjs.com/package/actioncable
+    * https://github.com/palkan/litecable
+  * MVP product features
+
+cmdseqd
+  * benchmark scala/akka websocket vs. ruby/ActionCable
   * MVP product features
 
 copynews
   * make nntp mesh work
+  * deploy into kube / use as some sort of messaging queue as backend
+  * libnntp cross compile via webassembly/emscripten
+  * peer to peer browser based nntp mesh
 
 tiddly.js
   * create react framework
   * mvp tiddlywiki
+  * ruby backend
+  * re-deploy
 
 bikeshed
   * nw.js installer
@@ -25,10 +46,11 @@ gigamock
   * functional api
 
 presenting.js
+  * reconsider project plan?
   * progressivly enhanced react isomorphic presentation framework
 
 get-user-media-input
-  * gif import
+  * gif import!!
   * better UI
 
 debug-tile-texturer
@@ -49,17 +71,17 @@ glsl-qwqz-1.0
   * 2d player model for run+jump+fly
   * fix shader vertex generation
   * interface with JS more
-  * audio layer with libxmp / modplug...?
   * android ios cleanup and performance
 
 happy-trails-5
   * gamelogic with scoring
   * support non-square images
+  * redeploy
 
 image-mine
   * make a site by scraping OS imagery
 
-centerology-4.0
+centerology-4.0 / picture-haus
   * open-source
   * travis build (take from Age-Of-Discovery)
   * error log rotation
@@ -67,10 +89,22 @@ centerology-4.0
     * maybe switch to ruby-2 with a neo4j server on torquebox?
     * maybe just use jruby-1.9 on torquebox
     * maybe just foreman
+  * drop elasticsearch backend
+  * switch to lire/lucene backend
+  * build serverless pipeline?
+    * scala?/mix-mode?
+  * reconsider UI flow to optimize for user input
 
 Age Of Discovery
+  * upgrade rails/all gems everything!!!
+  * some sort of working demo!!!!
+  * intro art and background fiction copy finish instruction document
+  * shuffle wording on instruction to read better for new gameplay elements
   * Upgrade to rails-4, re-integrate with centerology-4.0
     * fix problems with neo4j on rails4 + jruby
+  * blockchain based economy / transaction system?
+  * interface some sort of 
+  * re-deploy into kube
 
 emscripten
   * push back stuff
@@ -96,3 +130,44 @@ PixelThings
 
 risingcode-fss
   * moving text?
+
+ctr
+  * upgrade threejs
+  * add game logic
+  * render perf improvements
+
+ingressfd
+  * prototype functional mruby based ssl http server
+
+logrepd
+  * better runtime options
+  * install fluentd/postgres into bardin.haus kube cluster
+  * live deployment to bardin.haus
+
+marvin
+  * working prototype of redis/resque worker plugin
+  * benchmark against other redis/resque plugins
+
+versioning-file-cabinet
+  * deploy to kube
+  * README and marketing docs
+  * exmaple usage of bikeshed
+
+syncretizer
+  * determine viability of project
+  * more example scenarios matching real-world deploy cases
+
+super-happy-voxeltime-2d
+  * deploy prototype to kube
+
+sidecar
+  * test kube 1.8 / openvpn clusterability
+
+shell3
+  * finalize experiment research and documents
+  * opensource
+  * procfile auto-runner? ... combine with other projects?
+  * working osx build
+
+ruby-libuv-lab
+  * publish benchmarks
