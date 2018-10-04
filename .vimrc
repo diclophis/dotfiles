@@ -22,15 +22,9 @@ set backspace=indent,eol,start
 set nowrap
 set linebreak
 set lazyredraw
-<<<<<<< HEAD
-
-set nomodeline
-
-=======
  
 set nomodeline
  
->>>>>>> c186b69b8d7d4621653968dfe4844e13ae0190cf
 " MOUSE with VIM ! (YES)
 " set mouse=a
 " set ttymouse=xterm2
@@ -68,10 +62,17 @@ autocmd BufNewFile,BufRead *.markdown,*.md,*.mdown,*.mkd,*.mkdn
 au BufRead,BufNewFile *.scss set filetype=scss
 au BufRead,BufNewFile *.less set filetype=scss
 au BufNewFile,BufRead *.inventory,*.ini,*/.hgrc,*/.hg/hgrc setf ini
-au BufNewFile,BufRead *.fsh,*.vsh set syntax=glsl
-au BufRead,BufNewFile Detectivefile set filetype=ruby
-
 au BufNewFile,BufRead *.fsh,*.vsh set syntax=glsl 
 au BufRead,BufNewFile Detectivefile set filetype=ruby
+au BufRead,BufNewFile *.fs set syntax=glsl
 
 set viminfo='50,<1000,s100,h
+
+set maxmempattern=5000
+
+augroup ft_go
+    au!
+
+    au Filetype go setlocal tabstop=4 shiftwidth=4 softtabstop=4 noexpandtab
+    au Filetype go setlocal listchars+=tab:\ \
+augroup END
