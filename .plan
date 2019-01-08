@@ -2,6 +2,8 @@
 
 bardin.haus
   * re-deploy all demos and documents
+  * remesh kangaroo nodes to ec2 instance
+  * site redesign, photography centric
 
 risingcode.com
   * full stack rebuild
@@ -44,21 +46,24 @@ bikeshed
 
 gigamock
   * functional api
+  * what was gigamock???
+  * forum?
 
 presenting.js
   * reconsider project plan?
   * progressivly enhanced react isomorphic presentation framework
 
 get-user-media-input
-  * gif import!!
+  * gif import!! !!!!
   * better UI
 
 debug-tile-texturer
-  * make it so you can export sprite data to qwqz
+  * make it so you can export sprite data to qwqz,kit1zx
 
 ekko
   * make all the animations by extracting from source art
-  * make the dolphin move
+  * make the dolphin move, this is the player ui for kitzx ECS game!
+  * figure out how to program sprite movement: https://www.youtube.com/watch?v=lSbLrWRLWl4
 
 autocenter
   * ROI extraction
@@ -66,6 +71,7 @@ autocenter
   * file saving
 
 glsl-qwqz-1.0
+  * port 
   * point shader
   * document how spine animations should work
   * 2d player model for run+jump+fly
@@ -156,12 +162,15 @@ versioning-file-cabinet
 syncretizer
   * determine viability of project
   * more example scenarios matching real-world deploy cases
+  * bridge with wkndr as shebang translator for executable 
 
 super-happy-voxeltime-2d
   * deploy prototype to kube
+  * use a simple visualization of data in a voxel space from alternative backend dbs
 
 sidecar
   * test kube 1.8 / openvpn clusterability
+  * re-mesh with m41nfrnn and ec2 instance 
 
 shell3
   * finalize experiment research and documents
@@ -171,3 +180,112 @@ shell3
 
 ruby-libuv-lab
   * publish benchmarks
+
+# https://www.commonwl.org/user_guide/03-input/index.html
+
+
+msgpack / grpc
+
+
+
+
+kit1zx 3d html emscripten mruby game
+
+wkndr ruby process conventional
+
+
+
+
+# define per pipeline / per step what command / what container image ... use CMD???? Dockerfile convention....
+
+# github repo
+
+# webdav for quick hot-reloading of stuff as need-be
+
+# circle ci planner to cwl
+
+# faas step functions aws visual editor
+
+# git repo local priv
+
+# git push / pull
+
+# start blank code pen
+
+# uses kubernetes primitives
+# rbac ...
+# namespaces
+# run vs job vs deployment vs cron vs... controller/operator/custom
+
+# stdin/stdout all process have this
+
+# simple orchestration messages ... what existing standard?????? ... exit code is primary
+# https://www.commonwl.org/
+# two way coms
+# pipeline oriented features like progress indication and status messages
+
+# compelling UI
+# overview
+# what tasks are available to run
+# ETA estimates
+# create pipeline from _public_ github repo, what branch???, ssh key???, get key from deployment??? or public github integration!?!!??!?! app market place
+# ????....... mesh of public clusters??
+# auto-detect from buildpack conventions
+
+# takes github repo... builds kaniko ... conventional Dockerfile primary ... one Dockerfile per repo...... customizable????
+
+# can power my photography pipeline... 
+
+# it can power mavencraft
+
+# bookmarks site ... build wkndr --reload dev pipeline ... telepresence etc
+
+
+kit1zx browser to server per player ECS mesh network
+
+display()/tick() split
+
+multi view
+
+kubernetes manamgenet / overviewer
+
+# arkanoidish / tron game
+
+# machine learning pipeline??????????
+
+# https://github.com/rabix/composer
+
+# skaffold
+# draft
+# tilt
+
+# kubeadm-reset in wkndr
+
+# camera-one
+
+# kuberntes thing with per branch bits some sort of dev local thing recipe something
+# kafka on kubernetes
+
+kit1zx websocket server process (in a pod with limited network egress and all types of other restrictions)
+  system-popens() chroot'd vim-static
+  installs fwatch for chroot and dispatches call to mruby parse *rb
+
+  messages from the client are sent back to the server
+
+  onrecv in server they are dispatched via distributed ECS style queue scribble log
+
+  there is an api to query the scribble log
+
+the chroot dir 
+
+
+stdin stdout pipeline bits cwl worflow circle ci planner
+
+nc one-endpoint | nc onother-endpoint as a tunnelling mechanism, tls key share.... hmmmmm GRPC????? other bits, just tls priv/pub client/server keypair yes?
+
+some sort of ability share geometry between nodes???? or purely infomration only? graphql only api?
+
+edge compute proxy function as a service endpoint visualizer graph node editor compiz 
+
+image resize middleware s3 object content database edge node cache lru expiration
+
