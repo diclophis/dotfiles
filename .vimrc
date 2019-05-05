@@ -76,3 +76,5 @@ augroup ft_go
     au Filetype go setlocal tabstop=4 shiftwidth=4 softtabstop=4 noexpandtab
     au Filetype go setlocal listchars+=tab:\ \
 augroup END
+
+autocmd FileType make setlocal noexpandtab
