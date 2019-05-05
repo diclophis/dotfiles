@@ -193,9 +193,6 @@ kit1zx 3d html emscripten mruby game
 
 wkndr ruby process conventional
 
-
-
-
 # define per pipeline / per step what command / what container image ... use CMD???? Dockerfile convention....
 
 # github repo
@@ -239,7 +236,6 @@ wkndr ruby process conventional
 # it can power mavencraft
 
 # bookmarks site ... build wkndr --reload dev pipeline ... telepresence etc
-
 
 kit1zx browser to server per player ECS mesh network
 
@@ -353,3 +349,89 @@ ngrok mode fo sho connect to remote bit on high port service spawn connect on se
 the snake line is a log stream visualization
 
 whale hunting hyperdimensional data transport megalith creates, scaling bacteria size upward progression, strange attractor decoy and bouy bait mechanism
+
+
+###
+
+git/wkndr push goes to handler, handler detects build scenario based on detected buildpack, or possibly Wkndrfile parsing, jobs are dispatched based on circleci like workflow
+
+inbound github event knative eventsource
+
+# knative 'runner' vs. internal 'runner' ?????
+
+.circle/config.yml
+  Dockerfile # always dockerfile first????
+spec/test details # 1 command: bundle exec rake test ... multi command split via CLI filename globbing
+
+#### deployment
+
+1 image => 1 container * scale
+
+  test && deploy
+
+    get to docker image (no test code)
+
+    multistage build, use --build-arg to pass ssh key
+
+    each stage adds new bits to the docker file
+
+    stages are selected during Build resource deployment with --target
+
+    two specific stages are built
+
+      build run then test on top of run
+
+      test is extra bundle install --with bits for including test gems
+
+    run phase is sent to run/deploy pipelines
+
+    test phase is sent to split scale testing bits
+
+      test-prepare-a
+      test-prepare-b
+      test-prepare-c
+
+        -- test preparation phase is completed, where are depedencys like mysql declared?????
+
+        -- helm / kustomize deploy test depedency mesh
+
+          should the test deps be shared????
+
+          monolith-a  -- github.com/foo/bar.git
+            mysql
+            postgres
+            redis
+            memcache
+            elasticsearch
+            s3 buckets
+
+          microlith-a -- github.com/foo/baz.git
+            monolith-a
+
+          microlith-b -- github.com/bip/boop.git
+
+          microlith-c -- github.com/fip/fap.git
+
+
+        -- site vs. instance deployments!!!!
+
+1 image => N container * scale / container
+
+N image => N container * scale / image / node specification / security split / egress filtering
+
+step 1) install knative stack
+
+https://knative.dev/docs/install/knative-with-any-k8s/
+
+
+configure custom domain) https://knative.dev/docs/serving/using-a-custom-domain/
+
+deploy local registry https://knative.dev/docs/serving/deploying-with-private-registry/
+
+(HTTP_PROXY deployment!!!!!!!!!!!)
+
+wkndr dev inner loop support
+
+deploy kit1zx / wkndr.computer / wkndr.dev / 99balloons / test / deploy / photography.bardin.haus / risingcode.com
+
+internal registry /// http proxy for fast iteration loops
