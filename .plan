@@ -412,8 +412,26 @@ spec/test details # 1 command: bundle exec rake test ... multi command split via
 
           microlith-c -- github.com/fip/fap.git
 
-
         -- site vs. instance deployments!!!!
+
+        test-run-a
+        test-run-b
+        test-run-c
+
+        -- observe status of pipeline... goto url??? cmd get status ??? stdio/stdout
+
+        -- completed should work through sequence of promotions
+
+          -- promote to deployment A ... automatically
+          -- promote to deployment B ... based on other event ... release based on inbound msg
+
+            -- promotions are handled via metacontroller
+
+            -- inbound git push is a metacontroller / container source!!!!
+
+          -- list builds waiting for promotion / by tag / branch sort by date/time filter by
+
+faas with live-update built in
 
 1 image => N container * scale / container
 
@@ -423,7 +441,6 @@ step 1) install knative stack
 
 https://knative.dev/docs/install/knative-with-any-k8s/
 
-
 configure custom domain) https://knative.dev/docs/serving/using-a-custom-domain/
 
 deploy local registry https://knative.dev/docs/serving/deploying-with-private-registry/
@@ -432,6 +449,30 @@ deploy local registry https://knative.dev/docs/serving/deploying-with-private-re
 
 wkndr dev inner loop support
 
-deploy kit1zx / wkndr.computer / wkndr.dev / 99balloons / test / deploy / photography.bardin.haus / risingcode.com
+deploy kit1zx / wkndr.computer / wkndr.dev / 99balloons / test / deploy / photography.bardin.haus / risingcode.com / wkndr.app
 
 internal registry /// http proxy for fast iteration loops
+
+-- inner-loop development cycle local
+
+  cmd dev / run
+
+    watches for changes
+
+    when change is detected it will
+      -- create new git something... branch?????
+      -- add files and commit --amend updating the name
+      -- git push to wkndr remote
+
+      -- run is invoked via wkndr remote on git-push event handler
+
+      -- run in loop, waiting for pipeline, gateway block until next change is detected, or git status shows changes...!!!!!!
+
+      -- what is run / test
+
+        -- run / test creates pipelinerun resource
+
+
+-- what is a metacontroller !!!???
+
+wkndr resolve / wkndr plan -- print actions
