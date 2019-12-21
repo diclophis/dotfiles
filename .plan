@@ -177,6 +177,7 @@ shell3
   * opensource
   * procfile auto-runner? ... combine with other projects?
   * working osx build
+  * merge into wkndr
 
 ruby-libuv-lab
   * publish benchmarks
@@ -186,10 +187,8 @@ ruby-libuv-lab
 
 msgpack / grpc
 
-
-
-
 kit1zx 3d html emscripten mruby game
+ * maze game
 
 wkndr ruby process conventional
 
@@ -272,8 +271,9 @@ kit1zx websocket server process (in a pod with limited network egress and all ty
 
   there is an api to query the scribble log
 
-the chroot dir 
+  --client --server shell cmd shell3 dispatch refactor
 
+the chroot dir 
 
 stdin stdout pipeline bits cwl worflow circle ci planner
 
@@ -290,8 +290,6 @@ lru image cache proxy
 browser is presented html document containing <img src=>
 
 cdn proxy edge layer?
-
-
 
 client passes signature at tail end of url
 
@@ -476,3 +474,43 @@ internal registry /// http proxy for fast iteration loops
 -- what is a metacontroller !!!???
 
 wkndr resolve / wkndr plan -- print actions
+
+/attachments/:id
+
+vim buffer to html for ~/usrdir index files
+
+grpc integration requirements
+
+  listenOnHttp(req)
+    canonUrl,isDyn,ok = upstreamGrpcValidate(req)
+      lfuFetchOrInsert(key(canonUrl, req.dim))
+
+      fetchOrInsert impls
+        
+        fetch original document full bytes
+       
+       unoconv-as-a-service
+
+         grpcServer
+
+           onGenerateCoversheet(canonUrl)
+             fetchRawBytes(canonUrl)
+             feedTo
+
+
+
+
+dragDropFile
+  => uploadToS3
+  => indicateProgress
+  => then
+    => pingBackAppServer
+    => appServerBuildHtmlToProxyUrl
+
+ramps and shit 3d intersection megalophobia game levels air duct moving platforms
+
+camera is physobj
+
+webrtc beam audio/video stream to central server
+
+loop scrubbing tracker mod index engine
