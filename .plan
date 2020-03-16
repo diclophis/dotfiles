@@ -470,7 +470,6 @@ internal registry /// http proxy for fast iteration loops
 
         -- run / test creates pipelinerun resource
 
-
 -- what is a metacontroller !!!???
 
 wkndr resolve / wkndr plan -- print actions
@@ -497,9 +496,6 @@ grpc integration requirements
              fetchRawBytes(canonUrl)
              feedTo
 
-
-
-
 dragDropFile
   => uploadToS3
   => indicateProgress
@@ -514,3 +510,25 @@ camera is physobj
 webrtc beam audio/video stream to central server
 
 loop scrubbing tracker mod index engine
+
+libfive based csg callback filesystem websocket push binary data web worker physics bowling game demo shoot through concave/convex shape transformation scg guile syntax to convex hull polygon 3d render mode phsyics mode to render hull studio editor on file change available callback csg to stl pallete mtl file fixed number of color lego mode ode 3d physics engine
+
+distance fields raycast render bowling game demo
+
+3d print support http://www.curv3d.org/
+
+creative coding game engine write computer program to create art
+
+examples of creative coding communities parametric 3d generative art
+
+3d printed building with walls and gribbles for windows doors frames etc parametric random houses generic style
+
+beam resources between other users
+
+polly ci as a component in another pipeline, also is client side component
+
+deployments have notion of approval of changes, and specific timings plus other detected events based in input
+
+
+
+remap simple loop parts into pre-calculated hashmap results index on md5 of intermediate results reduce syscalls
