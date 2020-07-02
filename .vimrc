@@ -78,3 +78,6 @@ augroup ft_go
 augroup END
 
 autocmd FileType make setlocal noexpandtab
+
+" set laststatus=2
+" set statusline+=%F
