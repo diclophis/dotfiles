@@ -14,6 +14,9 @@ detective-agency
   * implement remote terminal
   * implement more DSL
 
+SiG
+  * fix XSS bugs
+
 attalos
   * drop XMPP backend
   * rebuild using ActionCable interface
@@ -529,6 +532,10 @@ polly ci as a component in another pipeline, also is client side component
 
 deployments have notion of approval of changes, and specific timings plus other detected events based in input
 
-
-
 remap simple loop parts into pre-calculated hashmap results index on md5 of intermediate results reduce syscalls
+
+binlog stream ruby lib benchmark realtime performance
+
+schema app as a service, workflow approval, AI schema recomendation, auto-alarm for various failure cases
+  ... mini-ruby based dsl for replacing or repairing records
+  ... integration with primary application for schema version detection
